@@ -43,6 +43,17 @@ except ImportError:
 __author__ = "Glen van Ginkel (Protein Data Bank in Europe; http://pdbe.org)"
 __date__ = "$30-Jun-2012 18:23:30$"
 
+print("""
+*****************************************************************
+*** DEPRECATION NOTICE:
+
+The PDBeCIF project has moved to Gitlab and will no longer be
+supported or developed here. Please find the latest code in pypi
+or for the source see: https://gitlab.com/glenveegee/PDBeCIF
+
+*****************************************************************
+""")
+
 # imports
 
 # constants

@@ -4,6 +4,17 @@ __date__ = "$17-Aug-2013 12:39:18$"
 import os
 from setuptools import setup, find_packages
 
+print("""
+*****************************************************************
+*** DEPRECATION NOTICE:
+
+The PDBeCIF project has moved to Gitlab and will no longer be
+supported or developed here. Please find the latest code in pypi
+or for the source see: https://gitlab.com/glenveegee/PDBeCIF
+
+*****************************************************************
+""")
+
 def read(fname):
   return open(os.path.join(os.path.dirname(__file__), fname)).read()
 setup (
